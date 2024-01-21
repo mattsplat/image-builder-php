@@ -1,0 +1,126 @@
+[
+  {
+    "type": "inlet-boundary",
+    "rows": [
+      {
+        "_id": "655686ae819d36251ef2edca",
+        "type": "Background",
+        "layer": "background",
+        "path": "https://detail-assets.nyc3.digitaloceanspaces.com/assets/v2-assets/backgrounds/above_grade/ag_inlet_2.png",
+        "size": 2,
+        "unit": "Inlet",
+        "buried": false,
+        "yOffset": 0
+      },
+      {
+        "_id": "655686ae819d36251ef2eef6",
+        "type": "Unit",
+        "layer": "foreground",
+        "path": "https://detail-assets.nyc3.digitaloceanspaces.com/assets/v2-assets/foregrounds/above_grade_units/inlet_3c_ag.png",
+        "buried": false,
+        "unit": "Inlet",
+        "diameter": 3,
+        "yOffset": -120
+      }
+    ],
+    "yOffset": -120
+  },
+  {
+    "type": "grease-interceptor",
+    "rows": [
+      {
+        "_id": "655686ae819d36251ef2edb8",
+        "type": "Background",
+        "layer": "background",
+        "path": "https://detail-assets.nyc3.digitaloceanspaces.com/assets/v2-assets/backgrounds/above_grade/ag_2_2.png",
+        "size": 2,
+        "unit": "GB2",
+        "buried": false,
+        "yOffset": 0
+      },
+      {
+        "_id": "655686ae819d36251ef2eee5",
+        "type": "Unit",
+        "layer": "foreground",
+        "path": "https://detail-assets.nyc3.digitaloceanspaces.com/assets/v2-assets/foregrounds/above_grade_units/gb2_3c_ag.png",
+        "buried": false,
+        "unit": "GB2",
+        "diameter": 3,
+        "yOffset": -120
+      },
+      {
+        "_id": "655686ae819d36251ef2eec5",
+        "type": "CoverCallout",
+        "layer": "background",
+        "path": "https://detail-assets.nyc3.digitaloceanspaces.com/assets/v2-assets/foregrounds/above_grade_cover_callouts/gb2_cl_ag.png",
+        "buried": false,
+        "unit": "GB2",
+        "traffic_rated": false,
+        "yOffset": 0
+      },
+      {
+        "_id": "655686ae819d36251ef2eed1",
+        "type": "PumpoutPort",
+        "layer": "foreground",
+        "path": "https://detail-assets.nyc3.digitaloceanspaces.com/assets/v2-assets/foregrounds/above_grade_pumpout_ports/gb2_pp_ag.png",
+        "buried": false,
+        "unit": "GB2",
+        "yOffset": -120
+      }
+    ],
+    "yOffset": -120
+  },
+  {
+    "type": "sampling-port",
+    "rows": [
+      {
+        "_id": "655686ae819d36251ef2edda",
+        "type": "Background",
+        "layer": "background",
+        "path": "https://detail-assets.nyc3.digitaloceanspaces.com/assets/v2-assets/backgrounds/above_grade/ag_sv10_2.png",
+        "size": 2,
+        "unit": "SV10",
+        "buried": false,
+        "yOffset": 0
+      },
+      {
+        "_id": "657760b715785fefed9cc8c6",
+        "path": "https://detail-assets.nyc3.digitaloceanspaces.com/assets/v2-assets/foregrounds/above_grade_units/sv10_3c_ag.png",
+        "type": "Unit",
+        "layer": "foreground",
+        "unit": "SV10",
+        "buried": false,
+        "diameter": 3,
+        "yOffset": -120
+      }
+    ],
+    "spacer": 120,
+    "yOffset": -120
+  },
+  {
+    "type": "outlet-boundary",
+    "rows": [
+      {
+        "_id": "655686ae819d36251ef2edd2",
+        "type": "Background",
+        "layer": "background",
+        "path": "https://detail-assets.nyc3.digitaloceanspaces.com/assets/v2-assets/backgrounds/above_grade/ag_outlet_2.png",
+        "size": 2,
+        "unit": "Outlet",
+        "buried": false,
+        "yOffset": 0
+      },
+      {
+        "_id": "655686ae819d36251ef2eefb",
+        "type": "Unit",
+        "layer": "foreground",
+        "path": "https://detail-assets.nyc3.digitaloceanspaces.com/assets/v2-assets/foregrounds/above_grade_units/outlet_3c_ag.png",
+        "buried": false,
+        "unit": "Outlet",
+        "diameter": 3,
+        "yOffset": 0
+      }
+    ],
+    "yOffset": 0
+  }
+]
