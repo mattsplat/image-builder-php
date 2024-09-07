@@ -1,4 +1,5 @@
 <?php
+ini_set('ffi.enable', 1);
 error_reporting(E_ALL ^ E_DEPRECATED);
 
 use Jcupitt\Vips\BlendMode;
